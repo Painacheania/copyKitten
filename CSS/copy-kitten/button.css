@@ -11,8 +11,8 @@
     border-radius: 5px;
     height: 40px;
     padding: 10px;
-  /*  box-shadow: 1px 2px 3px black;
-    text-transform: uppercase;*/
+    box-shadow: inset 1px 2px 3px black;
+    text-transform: uppercase;
 }
 
 /*#button:hover{
@@ -20,9 +20,9 @@
     box-shadow: none;
 }*/
 
-#Button { text-transform: capitalize; }
+/*#Button { text-transform: capitalize; }*/
 
-.button-shadow {
+/*#button-shadow {
     position: relative;
     z-index: 1;
     background: #06c;
@@ -32,7 +32,7 @@
     border-radius: 4px;
   }
 
-  .button-shadow {
+  #button-shadow {
     position: relative;
     z-index: 1;
     background: #06c;
@@ -41,7 +41,7 @@
     border: none;
     border-radius: 4px;
   }
-  .button-shadow::before {
+  #button-shadow::before {
     content: '';
     position: absolute;
     top: -4px; left: -4px; right: -4px; bottom: -4px;
@@ -50,7 +50,7 @@
     filter: blur(8px);
     border-radius: 6px;
   }
-    .button-shadow::after {
+  #button-shadow::after {
         content: '';
         position: absolute;
         top: -4px; left: -4px; right: -4px; bottom: -4px;
@@ -58,4 +58,4 @@
         background: rgba(0,102,204,0.2);
         filter: blur(8px);
         border-radius: 6px;
-    }  
+    }  */

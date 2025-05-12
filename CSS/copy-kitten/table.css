@@ -1,0 +1,12 @@
+ .rowColumn {
+    display: -moz-grid-line;
+      border-collapse: collapse;
+      width: 200px;
+      margin: 2rem auto;
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 500%;
+}
+
+ 
+  
